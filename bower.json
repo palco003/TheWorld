@@ -2,6 +2,7 @@
     "name": "ASP.NET",
     "private": true,
     "dependencies": {
-        "underscore": "latest"
+        "underscore": "latest",
+        "jquery": "latest"
     }
 }
