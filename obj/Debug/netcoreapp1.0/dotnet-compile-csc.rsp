@@ -168,4 +168,6 @@
 "/Users/pabloalcocer/Documents/TheWorld/Program.cs"
 "/Users/pabloalcocer/Documents/TheWorld/Startup.cs"
 "/Users/pabloalcocer/Documents/TheWorld/Controllers/Web/AppController.cs"
+"/Users/pabloalcocer/Documents/TheWorld/Services/DebugMailService.cs"
+"/Users/pabloalcocer/Documents/TheWorld/Services/IMailService.cs"
 "/Users/pabloalcocer/Documents/TheWorld/ViewModels/ContactViewModel.cs"
