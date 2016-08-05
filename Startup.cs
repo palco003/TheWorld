@@ -12,7 +12,8 @@ namespace TheWorld
         private IHostingEnvironment _env;
         private IConfigurationRoot _config;
 
-        public Startup(IHostingEnvironment env){
+        public Startup(IHostingEnvironment env)
+        {
             _env = env;
 
             var builder = new ConfigurationBuilder()
@@ -29,7 +30,7 @@ namespace TheWorld
         {
             services.AddSingleton(_config);
 
-            if(_env.IsEnvironment("Development") || _env.IsEnvironment("Testing"))
+            if(_env.IsEnvironment("Development") || _env.IsEnvironment("Production"))
             {
                 services.AddScoped<IMailService, DebugMailService>();
             }
